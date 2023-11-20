@@ -1,6 +1,6 @@
 /*cuerpo*/
 body{
-    background-image: url(/html/proyecto\ final/img/end1.png); /*color de fondo*/
+    background-image: url('/img/end1.png'); /*color de fondo*/
 }
 
 
@@ -177,7 +177,7 @@ section h1{
 }
 
 .bg::after{
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(/html/proyecto\ final/img/port.png);
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('/img/port.png');
     background-size: cover;
     background-position: center;
 }
@@ -493,9 +493,9 @@ section h1{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(116, 3, 3, 0), rgb(66, 0, 0)); /* Ajusta la opacidad según tus preferencias */
-    pointer-events: none; /* Permite que el fondo oscuro no bloquee eventos de otros elementos */
-    z-index: -900; /* Asegura que esté por debajo del contenido */
+    background: linear-gradient(to bottom, rgba(116, 3, 3, 0), rgb(66, 0, 0)); 
+    pointer-events: none; 
+    z-index: -900; 
 }
 
 @media screen and (max-width: 550px){
