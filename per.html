@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        
+
+    </head>
+    <style>
+        body{
+            background-color: #151D3B;
+            background-size: cover;
+            background-position: center; 
+            background-repeat: no-repeat;
+            margin: 0;
+            overflow: none;
+        }
+    </style>
+
+
+    <body>
+        <header>
+            <button class="menu-abierto" id="abrir"><i class="bi bi-list"></i></button>
+            <nav class="nav" id="nav">
+                <button class="menu-cerrar" id="cerrar"><i class="bi bi-x"></i></button>
+                <ul class="nav-lista">
+                    <li><a href="index.html">Menu</a></li>
+                    <li><a href="#">Personajes</a></li>
+                    <li><a href="./gal.html">Galeria</a></li>
+                    <li><a href="./time.html">Linea de tiempo</a></li>
+                    <li><a href="./otr.html">Otros Proyectos</a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <section class="home" id="home">
+            <div class="container">
+                <h2 class="sub">Personajes</h2>
+
+                
+                <div class="container-table">
+
+                    <div class="card-container">
+                        <figure>
+                            <img src="img/per/Koah.png" alt="" class="images">
+                        </figure>
+                        <h2 class="bot" onclick="abrirModal('modal1', event)">Koah</h2>
+                    </div>
+
+                    <div id="modal1" class="modal">
+                        <div class="modal-contenido">
+                          <span class="cerrar" onclick="cerrarModal('modal1')">&times;</span>
+                          <div class="contenido-modal">
+                            <div class="modal-contenido-int">
+                                <img src="img/per/Koah2.png">
+                                <div class="texto-modal">
+                                    <h2>Koah</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatem?</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="card-container">
+                        <figure>
+                            <img src="img/per/Eneas.png" alt="" class="images">
+                        </figure>
+                        <h2 class="bot" onclick="abrirModal('modal2', event)">Eneas</h2>
+                    </div>
+
+                    <div class="card-container">
+                        <figure>
+                            <img src="img/per/Lorika.png" alt="" class="images">
+                        </figure>
+                        <h2 class="bot" onclick="abrirModal('modal3', event)">Lorika</h2>
+                    </div>
+
+                    <div class="card-container">
+                        <figure>
+                            <img src="img/per/Melia.jpg" alt="" class="images">
+                        </figure>
+                        <h2 class="bot" onclick="abrirModal('modal4', event)">Melia</h2>
+                    </div>
+
+                    <div class="card-container">
+                        <figure>
+                            <img src="img/per/Raquel.png" alt="" class="images">
+                        </figure>
+                        <h2 class="bot" onclick="abrirModal('modal5', event)">Raquel</h2>
+                    </div>
+
+                    <div class="card-container">
+                        <figure>
+                            <img src="img/per/2N.png" alt="" class="images">
+                        </figure>
+                        <h2 class="bot" onclick="abrirModal('modal6', event)">2N</h2>
+                    </div>
+
+                    <div class="card-container">
+                        <figure>
+                            <img src="img/per/Sahia.jpg" alt="" class="images">
+                        </figure>
+                        <h2 class="bot" onclick="abrirModal('modal7', event)">Sahia</h2>
+                    </div>
+
+                    <div class="card-container">
+                        <figure>
+                            <img src="img/per/Gal.png" alt="" class="images">
+                        </figure>
+                        <h2 class="bot" onclick="abrirModal('modal8', event)">Gal</h2>
+                    </div>
+
+                    <div class="card-container">
+                        <figure>
+                            <img src="img/per/Helga.png" alt="" class="images">
+                        </figure>
+                        <h2 class="bot" onclick="abrirModal('modal9', event)">Helga</h2>
+                    </div>
+
+                    <div class="card-container">
+                        <figure>
+                            <img src="img/per/Seletra.jpeg" alt="" class="images">
+                        </figure>
+                        <h2 class="bot" onclick="abrirModal('modal10', event)">Seletra</h2>
+                    </div>
+
+                    <div class="card-container">
+                        <figure>
+                            <img src="img/per/Koi.jpeg" alt="" class="images">
+                        </figure>
+                        <h2 class="bot" onclick="abrirModal('modal11', event)">KoI</h2>
+                    </div>
+
+                    
+
+                    <div id="modal2" class="modal">
+                        <div class="modal-contenido">
+                          <span class="cerrar" onclick="cerrarModal('modal2')">&times;</span>
+                          <h2>Eneas</h2>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatem?</p>
+                        </div>
+                    </div>
+
+                    <div id="modal3" class="modal">
+                        <div class="modal-contenido">
+                          <span class="cerrar" onclick="cerrarModal('modal3')">&times;</span>
+                          <h2>Lorika</h2>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatem?</p>
+                        </div>
+                    </div>
+                    <div id="modal4" class="modal">
+                        <div class="modal-contenido">
+                          <span class="cerrar" onclick="cerrarModal('modal4')">&times;</span>
+                          <h2>Melia</h2>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatem?</p>
+                        </div>
+                    </div>
+                    <div id="modal5" class="modal">
+                        <div class="modal-contenido">
+                          <span class="cerrar" onclick="cerrarModal('modal5')">&times;</span>
+                          <h2>Raquel</h2>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatem?</p>
+                        </div>
+                    </div>
+                    <div id="modal6" class="modal">
+                        <div class="modal-contenido">
+                          <span class="cerrar" onclick="cerrarModal('modal6')">&times;</span>
+                          <h2>2N</h2>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatem?</p>
+                        </div>
+                    </div>
+                    <div id="modal7" class="modal">
+                        <div class="modal-contenido">
+                          <span class="cerrar" onclick="cerrarModal('modal7')">&times;</span>
+                          <h2>Sahia</h2>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatem?</p>
+                        </div>
+                    </div>
+                    <div id="modal8" class="modal">
+                        <div class="modal-contenido">
+                          <span class="cerrar" onclick="cerrarModal('modal8')">&times;</span>
+                          <h2>Gal</h2>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatem?</p>
+                        </div>
+                    </div>
+                    <div id="modal9" class="modal">
+                        <div class="modal-contenido">
+                          <span class="cerrar" onclick="cerrarModal('modal9')">&times;</span>
+                          <h2>Helga</h2>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatem?</p>
+                        </div>
+                    </div>
+                    <div id="modal10" class="modal">
+                        <div class="modal-contenido">
+                          <span class="cerrar" onclick="cerrarModal('modal10')">&times;</span>
+                          <h2>Seletra</h2>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatem?</p>
+                        </div>
+                    </div>
+                    <div id="modal11" class="modal">
+                        <div class="modal-contenido">
+                          <span class="cerrar" onclick="cerrarModal('modal11')">&times;</span>
+                          <h2>Koi</h2>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatem?</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <div class="lds-ripple loader" id="loader"><div></div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
