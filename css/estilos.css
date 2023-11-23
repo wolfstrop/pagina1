@@ -191,6 +191,12 @@ section h1{
     left: 150px;
 }
 
+.parallax-container p{
+    top: 20px;
+    width: 60%;
+    
+}
+
 .texto2{
     position: absolute;
     top: 50%;
